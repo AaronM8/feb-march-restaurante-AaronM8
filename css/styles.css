@@ -5,6 +5,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #F8512F
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.light-text {
+  font-weight: 400;
+}
+
+
 /*NAVBAR SECTION*/
 .navbar-default {
   background-color: transparent;
@@ -22,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #D34326;
   background-color: rgba(0, 0, 0, .15);
-  text-shadow: 1px 1ßpx rgba(0, 0, 0, .4);
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
 }
 /*CAROUSEL SECTION*/
 .item {
@@ -69,4 +86,22 @@ h1, h2, h3, h4, h5, h6 {
 .btn-default:hover {
   background-color: #D34326;
   color: #fff;
+}
+
+/* OUR STORY */
+#our-story{
+  margin-top: 75px;
+}
+
+#our-story h1.lobster-text {
+  text-shadow: 1px 1px #a7a7a7;
+  font-size: 4.5em;
+}
+
+#year-text {
+  position: absolute;
+  font-size: 10em;
+  color: rgba(0, 0, 0, .07);
+  z-index: 0;
+  font-family: 'Playfair Display', serif;
 }
